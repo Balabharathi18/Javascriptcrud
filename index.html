@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newstyle.css">
+    <title>Student Register form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration</h2>
+        <form id="registration-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" required>
+          </div>
+          <div class="form-group">
+            <label for="class">Class:</label>
+            <input type="text" id="class" name="class" required>
+          </div>
+          <div class="form-group">
+            <button type="button" id="update" class="btn-submit" onclick="submitOrUpdate()">Submit</button>
+          </div>
+        </form>
+    </div>
+    <div class="tab">
+        <table id="tab2">
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Edit/Delete</th>
+            <tbody id="tab1">
+            </tbody>
+        </table>
+    </div>
+</div>
+    <script src="newscript.js"></script>
+    
+</body>
+</html>
