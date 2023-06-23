@@ -152,6 +152,19 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
+  #search{
+    width:22%;
+    height:25px;
+    margin-left:72.5%;
+    margin-bottom: 20px;
+  }
+
+  #filter{
+    width:15%;
+    height:25px;
+    margin-left:72.5%;
+    margin-bottom: 20px;
+  }
   
   /* Media Queries */
   @media (max-width: 767px) {
