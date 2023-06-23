@@ -28,6 +28,19 @@
         </form>
     </div>
     <div class="tab">
+        <input type="text" id="search" onkeyup="find()" placeholder="Search Here....">
+        <select name="Filter" id="filter" onclick="filter()">
+          <option hidden>Filter</option>
+          <option value="normal">Normal</option>
+          <optgroup label="Name">
+            <option value="Alpha">Alphabetical(A-Z)</option>
+            <option value="deAlpha">Alphabetical(Z-A)</option>
+          </optgroup>
+          <optgroup label="Age">
+            <option value="Age">Age(0-N)</option>
+            <option value="de-Age" >Age(N-0)</option>
+          </optgroup>
+        </select>
         <table id="tab2">
             <th>S.No</th>
             <th>Name</th>
